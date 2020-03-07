@@ -24,12 +24,21 @@ WHAT IS DONE:
   
   
 BONUS FUNCTIONALITY IN ADMIN PANEL:
+
   Error messages:
+  
     - Error message will popup if user didn't fill all required input fields
+    
   Comments:
+  
     - Coment will have status pending until admin publish that coment
+    
     - Every comment can me edited or deleted
     
+    
    Products:
+   
     - Admin can add new product from admin panel(Including image)
+    
     - Admin can edit or delete product form admin panel
+    
