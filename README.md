@@ -11,11 +11,17 @@ ADMIN PANEL LOGIN
 WHAT IS DONE:
   
   •	On the main page display 9 items (grid 3X3) [Done]
+  
   •	Each item consists of product image, product title, short product description [Done]
+  
   •	Data should be taken from the database [Done]
+  
   •	Under the list of items, display list of comments about products and company [Done]
+  
   •	Under list of comments display comment input form. This form contains: name field, email field, field for text [Done]
+  
   •	Also create simple admin part where admin can approve comments for publishing. [Done]
+  
   
 BONUS FUNCTIONALITY IN ADMIN PANEL:
   Error messages:
