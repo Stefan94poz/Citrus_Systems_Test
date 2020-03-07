@@ -8,6 +8,7 @@ ADMIN PANEL LOGIN
  Username: admin
  
  Password: admin
+ -----------------
  
 WHAT IS DONE:
   
@@ -23,7 +24,7 @@ WHAT IS DONE:
   
   •    Also create simple admin part where admin can approve comments for publishing. [Done]
   
-  
+   -----------------
   
   
 BONUS FUNCTIONALITY IN ADMIN PANEL:
