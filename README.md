@@ -4,11 +4,10 @@ SQL Database link https://drive.google.com/file/d/1WAZHS9HZOQIK33CHvylXNiHlUb879
 
 
 ADMIN PANEL LOGIN
- 
+
  Username: admin
  
  Password: admin
- 
  
 WHAT IS DONE:
   
@@ -29,11 +28,9 @@ WHAT IS DONE:
   
 BONUS FUNCTIONALITY IN ADMIN PANEL:
 
-
   Error messages:
   
     - An error message will popup if the user didn't fill all required input fields
-    
     
   Comments:
   
@@ -42,8 +39,6 @@ BONUS FUNCTIONALITY IN ADMIN PANEL:
     - Every comment can be edited or deleted
     
     - On the homepage under section Client Reviews, we can see all reviews show like a slider instead of a list. On the right side of the reviews is a review submission form.
-    
-    
     
    Products:
    
