@@ -1,0 +1,400 @@
+#main {
+    padding:60px 0px;
+    background: #E9E9E9;
+    min-height: 100vh;
+}
+h1,h2 {
+    font-family: 'Oxygen', sans-serif !important;
+    color: #FB9940 !important;
+    font-weight: 700 !important;
+}
+h3,h4 {
+    font-family: 'Oxygen', sans-serif !important;
+    color: #45B759 !important;
+    font-weight: 700 !important;
+}
+.home .product p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body.admin #main {
+    padding: 0px;
+    overflow: hidden;
+}
+body.admin .row {
+   
+    margin: 0px;
+}
+
+.home .product img {
+    display: block;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.home .add-comment {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.home .add-comment form {
+    display: flex;
+    flex-direction: column;
+}
+
+.home .add-comment form input {
+    margin-bottom: 20px;
+}
+
+.home .add-comment form button.submit {
+    max-width: 150px;
+    width: 100%;
+    padding:15px 25px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.success-message {
+    text-align: center;
+    padding: 15px 0px;
+    font-size: 18px;
+    color:#fff !important;
+    font-weight: 700;
+    background: green;
+    margin: 25px 0px;
+}
+
+.error-message {
+    text-align: center;
+    padding: 15px 0px;
+    font-size: 18px;
+    color:#fff !important;
+    font-weight: 700;
+    background: red;
+    margin: 25px 0px;
+}
+
+header {
+    background-color: #218360;
+    z-index: 9;
+}
+
+nav ul {
+    display: block;
+    list-style:none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px 0px;
+    box-sizing: border-box;
+}
+
+nav ul li a {
+    color:#fff;
+    font-weight: 700;
+}
+
+nav ul li:hover a {
+    color:#F7DE33;
+    text-decoration: none;
+}
+
+nav ul li:hover  {
+    padding-bottom: 18px;
+    border-bottom:2px solid #F7DE33;
+}
+
+nav ul li:not(:first-child){
+    float:right;
+    margin-left:30px;;
+}
+
+.home h1 {
+    margin-bottom: 50px;
+}
+
+.home h2 {
+    margin:50px 0px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 0px;
+    background-color: #218360;
+}
+footer p {
+   margin: 0px;
+   color:#fff !important;
+   font-weight: 700;
+}
+
+secttion.admin-panel {
+    background-color: #2b343e; 
+    
+}
+
+.admin-panel-wrap{
+    padding-left: 15px;
+    margin-top:25px;
+}
+
+secttion.admin-panel h2 {
+    font-size: 18px;
+    text-align: left;
+    color:#dc0606;
+    border-bottom: 2px solid #45B759;
+    padding-bottom: 15px;
+}
+
+.admin-panel-wrap ul {
+    padding: 0px;
+    list-style: none;
+}
+.admin-panel-wrap ul li {
+    margin-bottom: 15px;
+}
+.admin-panel-wrap ul li a{
+    color:#ffffff;
+    font-weight:700
+}
+
+section.admin-panel-content {
+    padding: 0px;
+    background-color: #343a40;
+    height: 100vh;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+}
+section.admin-panel-content::-webkit-scrollbar  {
+    display: none;
+}
+
+.edit-section{
+    visibility: collapse;
+}
+
+.edit-section button, .edit-section input {
+    width: 100%;
+}
+
+secttion.comments {
+    margin: 60px 0px;
+    display: block;
+}
+
+secttion.comments .carousel-inner {
+    background-color: #fff;
+    border-radius: 10px;;
+    text-align: center;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+secttion.comments .carousel-item {
+  padding:40px 25px;
+
+}
+h3.comment-content {
+    color: #eacd00 !important;
+    font-size: 25px;
+}
+i.fas.fa-quote-left,
+i.fas.fa-quote-right{
+    font-size:20px;
+    padding:10px 15px
+}
+p.author-name {
+  color:#333;
+  font-style: italic;
+  font-weight: 700;
+  margin: 0px;
+}
+
+secttion.comments .carousel {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+img.admin-product-thumbnail {
+    height: 80px;
+    width: 100%;
+    max-width: 120px;
+    object-fit: cover;
+}
+
+.product-wrap {
+    padding: 20px 15px;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 0px 0px 15px 15px;
+}
+.product.col-md-4 {
+      max-width: 32%;
+      background-color: #fff;
+}
+.product{
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px 4px #0000024a;
+  box-sizing: border-box;
+  margin-bottom:25px;
+  padding: 0px !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.product:hover{
+  transform: scale(1.05);
+}
+.product img {
+  border-radius: 15px 15px 0px 0px
+}
+
+section.products .row {
+    justify-content: space-between;
+}
+.product h3.card-title{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size:25px
+}
+
+p.card-desc {
+  color:#848482;
+  text-transform: capitalize;
+}
+
+#comment-section input,
+#comment-section textarea {
+  border:none;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+#comment-section input::placeholder,
+#comment-section textarea::placeholder {
+  color:#45B759;
+  font-size:16px;
+  font-weight: 700;
+}
+
+ button.submit {
+    border:none;
+    background-color: #FB9940;
+    border-radius: 5px;
+    color:#fff;
+    font-size:18px;
+    font-weight: 700;
+  }
+ button.submit:hover {
+    background-color: #45B759;
+    border-radius: 5px;
+    color:#fff;
+    font-size:18px;
+    font-weight: 700;
+  }
+
+.admin-panel-wrap ul li a {
+    text-decoration: none;
+}
+.admin-panel-wrap ul li:hover a {
+    color:#F46544;
+}
+
+.admin-panel-wrap ul li i {
+    margin-right: 10px;
+    color:#FB9940;
+}
+button.edit-button {
+    border: none;
+    padding: 5px 15px;
+    border-radius: 3px;
+    background-color: #FB9940;
+    color: #fff;
+    font-weight: 700;
+}
+
+button.delete-button {
+    border: none;
+    padding: 5px 15px;
+    border-radius: 3px;
+    background-color: #F46544;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 15px;
+}
+button.publish-button {
+    border: none;
+    padding: 5px 15px;
+    border-radius: 3px;
+    background-color: #4568b7;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.admin-panel-content button {
+    width: 100%;
+    max-width: 85px;
+}
+.admin-panel-content input {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.admin-panel-content input {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.admin-panel-content input#image {
+    border-radius:5px;
+    padding:5px;
+    background-color: #218360;
+   
+}
+.admin-panel-wrap h2 {
+    text-transform: capitalize;
+}
+button {
+    cursor: pointer;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    max-width:300px;
+    width:100%;
+    margin: 0 auto;
+}
+.login form input {
+    border: none;
+    padding: 10px;
+    border-radius: 5px !important;
+    margin-bottom: 25px;
+    background-color: #fff !important;
+}
+
+.login form input::placeholder,
+.login form textarea::placeholder {
+  color:#45B759;
+  font-size:16px;
+  font-weight: 700;
+}
+.test{
+    color:#218360;
+    color:#45B759;
+    color:#F7DE33;
+    color:#FB9940;
+    color:#F46544;
+}
+body.login button.submit {
+    max-width: 120px;
+    width: 100%;
+    padding: 15px 15px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
