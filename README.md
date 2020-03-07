@@ -41,7 +41,8 @@ BONUS FUNCTIONALITY IN ADMIN PANEL:
     
     - Every comment can be edited or deleted
     
-    - On the homepage under section Client Reviews, we can see all reviews show like a slider instead of a list. On the right side of the reviews is a review submission form.
+    - On the homepage under section Client Reviews, we can see all reviews show like a slider instead of a list. 
+    On the right side of the reviews is a review submission form.
     
    Products:
    
