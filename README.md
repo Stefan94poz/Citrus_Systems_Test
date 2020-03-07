@@ -1,6 +1,6 @@
 # Citrus_Systems_Test
 
-I used XAMP server for this test. U can run this project by going localhost/citrus_test/index.php
+I used XAMP server for this test. You can run this project by going localhost/citrus_test/index.php
 
 SQL Database link https://drive.google.com/file/d/1WAZHS9HZOQIK33CHvylXNiHlUb8791dX/view?usp=sharing
 
