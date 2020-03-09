@@ -22,7 +22,7 @@ if(isset($_POST['add-product'])){
         exit();
     }
 
-    //Check and validate Comment
+    //Check and validate Image
     
     if (!empty($_FILES['image'])) {
         $img = $_FILES["image"]["name"];
