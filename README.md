@@ -2,6 +2,8 @@
 
 I used XAMP server for this test. You can run this project by going localhost/citrus_test/index.php.
 
+-----------------
+
 NOTE !!
 
 Name the root folder citrus_test 
