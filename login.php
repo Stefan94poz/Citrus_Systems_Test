@@ -8,7 +8,7 @@ if(isset($_POST['login'])){
     }else {
         session_start();
         $_SESSION["message"] = '<h3 class="error-message">Username is missing !!!</h3>';
-        header('location: /citrus_test/page-login.php#login-section');
+        header('location: /page-login.php#login-section');
         exit();
     }
     
@@ -19,7 +19,7 @@ if(isset($_POST['login'])){
     }else {
         session_start();
         $_SESSION["message"] = '<h3 class="error-message">Password missing !!!</h3>';
-        header('location: /citrus_test/page-login.php#login-section');
+        header('location: /page-login.php#login-section');
         exit();
     }
 
@@ -42,7 +42,7 @@ if(isset($_POST['login'])){
     }else{
         session_start();
         $_SESSION["message"] = '<h3 class="error-message">Wrong username or password !!!</h3>';
-        header('location: /citrus_test/page-login.php#login-section');
+        header('location: /page-login.php#login-section');
     }
     
     mysqli_close($con);
